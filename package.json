@@ -1,0 +1,24 @@
+{
+  "name": "saucedemoplaywrightts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:smoke": "npx playwright test --grep @smoke",
+    "test:regression": "npx playwright test --grep @regression",
+    "test:security": "npx plauwright test --grep @security",
+    "test:e2e": "npx playwright test --grep @e2e",
+    "report": "npx allure generate ./allure-results --clean && npx allure open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.60.0",
+    "@types/node": "^25.9.1",
+    "allure-commandline": "^2.41.0",
+    "allure-playwright": "^3.9.0",
+    "dotenv": "^17.4.2"
+  }
+}
