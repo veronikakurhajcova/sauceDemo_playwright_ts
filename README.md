@@ -1,4 +1,5 @@
 # SauceDemo Playwright Tests
+![CI](https://github.com/veronikakurhajcova/sauceDemo_playwright_ts/actions/workflows/playwright.yml/badge.svg)
 
 Automated test suite for [SauceDemo](https://www.saucedemo.com) built with Playwright and TypeScript.
 
